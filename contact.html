@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Section: Navbar -->
+    <header>
+      <nav
+        class="nav navbar-default justify-content-end fixed-top"
+        id="navigation"
+      >
+        <a class="nav-link" id="link1" href="./index.html">Home</a>
+        <a class="nav-link" id="link2" href="./projects.html">Projects</a>
+        <a class="nav-link active" id="link3" href="./contact.html">Contact</a>
+      </nav>
+    </header>
+    <!-- Section: Navbar -->
+
+    <!-- Section: Contact -->
+    <h1 class="text-primary text-center" id="second-text">Contact Me</h1>
+    <article class="text-muted text-secondary text-center">
+      I would love to hear about your project and how I could help.Please fill
+      in the form,and I'll get back to you as soon as possible.
+    </article>
+
+    <!--FORM-->
+    <div class="container" id="form-container">
+      <form method="post" action="subscriberform.php">
+        <input
+          name="name"
+          type="text"
+          class="feedback-input"
+          placeholder="NAME"
+        />
+        <input
+          name="email"
+          type="text"
+          class="feedback-input"
+          placeholder="EMAIL"
+        />
+        <textarea
+          name="message"
+          class="feedback-input"
+          placeholder="MESSAGE"
+        ></textarea>
+        <input
+          type="submit"
+          class="send btn btn-outline-light"
+          value="SEND MESSAGE"
+        />
+      </form>
+    </div>
+    <!--FORM-->
+    <!-- Section: Contact -->
+
+    <!-- Section: Footer -->
+    <footer class="text-center fixed-bottom" id="footer-bottom">
+      <!-- Grid container -->
+      <div class="container pt-4"></div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Section: Footer -->
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
